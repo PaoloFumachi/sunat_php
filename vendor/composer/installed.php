@@ -1,28 +1,19 @@
 <?php return array(
     'root' => array(
-        'name' => '__root__',
-        'pretty_version' => '1.0.0+no-version-set',
-        'version' => '1.0.0.0',
-        'reference' => null,
-        'type' => 'library',
+        'name' => 'dsi6/sunat-php',
+        'pretty_version' => 'dev-main',
+        'version' => 'dev-main',
+        'reference' => 'f49d4ad3ea48f0c86d854e83d7f7ab1138909c18',
+        'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
         'dev' => true,
     ),
     'versions' => array(
-        '__root__' => array(
-            'pretty_version' => '1.0.0+no-version-set',
-            'version' => '1.0.0.0',
-            'reference' => null,
-            'type' => 'library',
-            'install_path' => __DIR__ . '/../../',
-            'aliases' => array(),
-            'dev_requirement' => false,
-        ),
         'bacon/bacon-qr-code' => array(
-            'pretty_version' => '2.0.8',
-            'version' => '2.0.8.0',
-            'reference' => '8674e51bb65af933a5ffaf1c308a660387c35c22',
+            'pretty_version' => 'v3.0.3',
+            'version' => '3.0.3.0',
+            'reference' => '36a1cb2b81493fa5b82e50bf8068bf84d1542563',
             'type' => 'library',
             'install_path' => __DIR__ . '/../bacon/bacon-qr-code',
             'aliases' => array(),
@@ -37,22 +28,31 @@
             'aliases' => array(),
             'dev_requirement' => false,
         ),
+        'dsi6/sunat-php' => array(
+            'pretty_version' => 'dev-main',
+            'version' => 'dev-main',
+            'reference' => 'f49d4ad3ea48f0c86d854e83d7f7ab1138909c18',
+            'type' => 'project',
+            'install_path' => __DIR__ . '/../../',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
         'greenter/core' => array(
             'dev_requirement' => false,
             'replaced' => array(
-                0 => 'v5.1.2',
+                0 => 'v5.2.0',
             ),
         ),
         'greenter/cpe-validator' => array(
             'dev_requirement' => false,
             'replaced' => array(
-                0 => 'v5.1.2',
+                0 => 'v5.2.0',
             ),
         ),
         'greenter/data' => array(
             'dev_requirement' => false,
             'replaced' => array(
-                0 => 'v5.1.2',
+                0 => 'v5.2.0',
             ),
         ),
         'greenter/gre-api' => array(
@@ -65,9 +65,9 @@
             'dev_requirement' => false,
         ),
         'greenter/greenter' => array(
-            'pretty_version' => 'v5.1.2',
-            'version' => '5.1.2.0',
-            'reference' => '995491e2b34ef1327182d75160b2c3c0418effd4',
+            'pretty_version' => 'v5.2.0',
+            'version' => '5.2.0.0',
+            'reference' => 'e5f93df5fc6088231d939414072cc466363b0a41',
             'type' => 'library',
             'install_path' => __DIR__ . '/../greenter/greenter',
             'aliases' => array(),
@@ -76,49 +76,49 @@
         'greenter/htmltopdf' => array(
             'dev_requirement' => false,
             'replaced' => array(
-                0 => 'v5.1.2',
+                0 => 'v5.2.0',
             ),
         ),
         'greenter/lite' => array(
             'dev_requirement' => false,
             'replaced' => array(
-                0 => 'v5.1.2',
+                0 => 'v5.2.0',
             ),
         ),
         'greenter/report' => array(
             'dev_requirement' => false,
             'replaced' => array(
-                0 => 'v5.1.2',
+                0 => 'v5.2.0',
             ),
         ),
         'greenter/validator' => array(
             'dev_requirement' => false,
             'replaced' => array(
-                0 => 'v5.1.2',
+                0 => 'v5.2.0',
             ),
         ),
         'greenter/ws' => array(
             'dev_requirement' => false,
             'replaced' => array(
-                0 => 'v5.1.2',
+                0 => 'v5.2.0',
             ),
         ),
         'greenter/xcodes' => array(
             'dev_requirement' => false,
             'replaced' => array(
-                0 => 'v5.1.2',
+                0 => 'v5.2.0',
             ),
         ),
         'greenter/xml' => array(
             'dev_requirement' => false,
             'replaced' => array(
-                0 => 'v5.1.2',
+                0 => 'v5.2.0',
             ),
         ),
         'greenter/xml-parser' => array(
             'dev_requirement' => false,
             'replaced' => array(
-                0 => 'v5.1.2',
+                0 => 'v5.2.0',
             ),
         ),
         'greenter/xmldsig' => array(
@@ -257,9 +257,9 @@
             'dev_requirement' => false,
         ),
         'symfony/finder' => array(
-            'pretty_version' => 'v7.4.0',
-            'version' => '7.4.0.0',
-            'reference' => '340b9ed7320570f319028a2cbec46d40535e94bd',
+            'pretty_version' => 'v8.0.6',
+            'version' => '8.0.6.0',
+            'reference' => '441404f09a54de6d1bd6ad219e088cdf4c91f97c',
             'type' => 'library',
             'install_path' => __DIR__ . '/../symfony/finder',
             'aliases' => array(),
@@ -302,18 +302,27 @@
             'dev_requirement' => false,
         ),
         'symfony/validator' => array(
-            'pretty_version' => 'v6.4.30',
-            'version' => '6.4.30.0',
-            'reference' => '572dcc789ddf53174c61551aa5a3ec58d6a48b9b',
+            'pretty_version' => 'v6.4.34',
+            'version' => '6.4.34.0',
+            'reference' => '7c3897b7f739d4ab913481e680405ca82d08084d',
             'type' => 'library',
             'install_path' => __DIR__ . '/../symfony/validator',
             'aliases' => array(),
             'dev_requirement' => false,
         ),
+        'symfony/var-dumper' => array(
+            'pretty_version' => 'v6.4.32',
+            'version' => '6.4.32.0',
+            'reference' => '131fc9915e0343052af5ed5040401b481ca192aa',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../symfony/var-dumper',
+            'aliases' => array(),
+            'dev_requirement' => true,
+        ),
         'twig/twig' => array(
-            'pretty_version' => 'v3.22.1',
-            'version' => '3.22.1.0',
-            'reference' => '1de2ec1fc43ab58a4b7e80b214b96bfc895750f3',
+            'pretty_version' => 'v3.23.0',
+            'version' => '3.23.0.0',
+            'reference' => 'a64dc5d2cc7d6cafb9347f6cd802d0d06d0351c9',
             'type' => 'library',
             'install_path' => __DIR__ . '/../twig/twig',
             'aliases' => array(),
