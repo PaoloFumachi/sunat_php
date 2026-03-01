@@ -17,8 +17,14 @@
         "sort-packages": true,
         "platform": {
             "php": "8.4.0"
+        },
+        "allow-plugins": {
+            "composer/package-versions-deprecated": true
         }
     },
     "minimum-stability": "stable",
-    "prefer-stable": true
+    "prefer-stable": true,
+    "replace": {
+        "symfony/polyfill-php83": "*"
+    }
 }

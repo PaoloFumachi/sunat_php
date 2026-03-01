@@ -3,7 +3,7 @@
         'name' => 'dsi6/sunat-php',
         'pretty_version' => 'dev-main',
         'version' => 'dev-main',
-        'reference' => '21d39199edfaad3cb2879e4ec1785c7f8b3b8e52',
+        'reference' => 'd0f4a3f491014ea0eb7dba47d32965e18227606b',
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -31,7 +31,7 @@
         'dsi6/sunat-php' => array(
             'pretty_version' => 'dev-main',
             'version' => 'dev-main',
-            'reference' => '21d39199edfaad3cb2879e4ec1785c7f8b3b8e52',
+            'reference' => 'd0f4a3f491014ea0eb7dba47d32965e18227606b',
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
@@ -284,13 +284,10 @@
             'dev_requirement' => false,
         ),
         'symfony/polyfill-php83' => array(
-            'pretty_version' => 'v1.33.0',
-            'version' => '1.33.0.0',
-            'reference' => '17f6f9a6b1735c0f163024d959f700cfbc5155e5',
-            'type' => 'library',
-            'install_path' => __DIR__ . '/../symfony/polyfill-php83',
-            'aliases' => array(),
             'dev_requirement' => false,
+            'replaced' => array(
+                0 => '*',
+            ),
         ),
         'symfony/translation-contracts' => array(
             'pretty_version' => 'v3.6.1',

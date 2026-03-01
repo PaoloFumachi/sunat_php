@@ -4,7 +4,7 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInitc1480097747d1187e78cce468971abe9
+class ComposerStaticInitd42a5e9f38088e88c2e3061072e4d859
 {
     public static $files = array (
         '6e3fae29631ef280660b3cdad06f25a8' => __DIR__ . '/..' . '/symfony/deprecation-contracts/function.php',
@@ -12,7 +12,6 @@ class ComposerStaticInitc1480097747d1187e78cce468971abe9
         '320cde22f66dd4f5d3fd621d3e88b98f' => __DIR__ . '/..' . '/symfony/polyfill-ctype/bootstrap.php',
         '0e6d7bf4a5811bfa5cf40c5ccd6fae6a' => __DIR__ . '/..' . '/symfony/polyfill-mbstring/bootstrap.php',
         '37a3dc5111fe8f707ab4c132ef1dbc62' => __DIR__ . '/..' . '/guzzlehttp/guzzle/src/functions_include.php',
-        '662a729f963d39afe703c9d9b7ab4a8c' => __DIR__ . '/..' . '/symfony/polyfill-php83/bootstrap.php',
         '89efb1254ef2d1c5d80096acd12c4098' => __DIR__ . '/..' . '/twig/twig/src/Resources/core.php',
         'ffecb95d45175fd40f75be8a23b34f90' => __DIR__ . '/..' . '/twig/twig/src/Resources/debug.php',
         'c7baa00073ee9c61edf148c51917cfb4' => __DIR__ . '/..' . '/twig/twig/src/Resources/escaper.php',
@@ -32,7 +31,6 @@ class ComposerStaticInitc1480097747d1187e78cce468971abe9
         ),
         'S' =>
         array (
-            'Symfony\\Polyfill\\Php83\\' => 23,
             'Symfony\\Polyfill\\Mbstring\\' => 26,
             'Symfony\\Polyfill\\Ctype\\' => 23,
             'Symfony\\Contracts\\Translation\\' => 30,
@@ -81,10 +79,6 @@ class ComposerStaticInitc1480097747d1187e78cce468971abe9
         'Twig\\' =>
         array (
             0 => __DIR__ . '/..' . '/twig/twig/src',
-        ),
-        'Symfony\\Polyfill\\Php83\\' =>
-        array (
-            0 => __DIR__ . '/..' . '/symfony/polyfill-php83',
         ),
         'Symfony\\Polyfill\\Mbstring\\' =>
         array (
@@ -241,15 +235,6 @@ class ComposerStaticInitc1480097747d1187e78cce468971abe9
         'DASPRiD\\Enum\\Exception\\SerializeNotSupportedException' => __DIR__ . '/..' . '/dasprid/enum/src/Exception/SerializeNotSupportedException.php',
         'DASPRiD\\Enum\\Exception\\UnserializeNotSupportedException' => __DIR__ . '/..' . '/dasprid/enum/src/Exception/UnserializeNotSupportedException.php',
         'DASPRiD\\Enum\\NullValue' => __DIR__ . '/..' . '/dasprid/enum/src/NullValue.php',
-        'DateError' => __DIR__ . '/..' . '/symfony/polyfill-php83/Resources/stubs/DateError.php',
-        'DateException' => __DIR__ . '/..' . '/symfony/polyfill-php83/Resources/stubs/DateException.php',
-        'DateInvalidOperationException' => __DIR__ . '/..' . '/symfony/polyfill-php83/Resources/stubs/DateInvalidOperationException.php',
-        'DateInvalidTimeZoneException' => __DIR__ . '/..' . '/symfony/polyfill-php83/Resources/stubs/DateInvalidTimeZoneException.php',
-        'DateMalformedIntervalStringException' => __DIR__ . '/..' . '/symfony/polyfill-php83/Resources/stubs/DateMalformedIntervalStringException.php',
-        'DateMalformedPeriodStringException' => __DIR__ . '/..' . '/symfony/polyfill-php83/Resources/stubs/DateMalformedPeriodStringException.php',
-        'DateMalformedStringException' => __DIR__ . '/..' . '/symfony/polyfill-php83/Resources/stubs/DateMalformedStringException.php',
-        'DateObjectError' => __DIR__ . '/..' . '/symfony/polyfill-php83/Resources/stubs/DateObjectError.php',
-        'DateRangeError' => __DIR__ . '/..' . '/symfony/polyfill-php83/Resources/stubs/DateRangeError.php',
         'Greenter\\Api' => __DIR__ . '/..' . '/greenter/greenter/packages/lite/src/Greenter/Api.php',
         'Greenter\\Api\\ApiFactory' => __DIR__ . '/..' . '/greenter/greenter/packages/ws/src/Api/ApiFactory.php',
         'Greenter\\Api\\GreSender' => __DIR__ . '/..' . '/greenter/greenter/packages/ws/src/Api/GreSender.php',
@@ -568,7 +553,6 @@ class ComposerStaticInitc1480097747d1187e78cce468971abe9
         'GuzzleHttp\\RetryMiddleware' => __DIR__ . '/..' . '/guzzlehttp/guzzle/src/RetryMiddleware.php',
         'GuzzleHttp\\TransferStats' => __DIR__ . '/..' . '/guzzlehttp/guzzle/src/TransferStats.php',
         'GuzzleHttp\\Utils' => __DIR__ . '/..' . '/guzzlehttp/guzzle/src/Utils.php',
-        'Override' => __DIR__ . '/..' . '/symfony/polyfill-php83/Resources/stubs/Override.php',
         'PhpZip\\Constants\\DosAttrs' => __DIR__ . '/..' . '/nelexa/zip/src/Constants/DosAttrs.php',
         'PhpZip\\Constants\\DosCodePage' => __DIR__ . '/..' . '/nelexa/zip/src/Constants/DosCodePage.php',
         'PhpZip\\Constants\\GeneralPurposeBitFlag' => __DIR__ . '/..' . '/nelexa/zip/src/Constants/GeneralPurposeBitFlag.php',
@@ -649,7 +633,6 @@ class ComposerStaticInitc1480097747d1187e78cce468971abe9
         'Psr\\Http\\Message\\UploadedFileInterface' => __DIR__ . '/..' . '/psr/http-message/src/UploadedFileInterface.php',
         'Psr\\Http\\Message\\UriFactoryInterface' => __DIR__ . '/..' . '/psr/http-factory/src/UriFactoryInterface.php',
         'Psr\\Http\\Message\\UriInterface' => __DIR__ . '/..' . '/psr/http-message/src/UriInterface.php',
-        'SQLite3Exception' => __DIR__ . '/..' . '/symfony/polyfill-php83/Resources/stubs/SQLite3Exception.php',
         'Symfony\\Component\\Finder\\Comparator\\Comparator' => __DIR__ . '/..' . '/symfony/finder/Comparator/Comparator.php',
         'Symfony\\Component\\Finder\\Comparator\\DateComparator' => __DIR__ . '/..' . '/symfony/finder/Comparator/DateComparator.php',
         'Symfony\\Component\\Finder\\Comparator\\NumberComparator' => __DIR__ . '/..' . '/symfony/finder/Comparator/NumberComparator.php',
@@ -901,7 +884,6 @@ class ComposerStaticInitc1480097747d1187e78cce468971abe9
         'Symfony\\Contracts\\Translation\\TranslatorTrait' => __DIR__ . '/..' . '/symfony/translation-contracts/TranslatorTrait.php',
         'Symfony\\Polyfill\\Ctype\\Ctype' => __DIR__ . '/..' . '/symfony/polyfill-ctype/Ctype.php',
         'Symfony\\Polyfill\\Mbstring\\Mbstring' => __DIR__ . '/..' . '/symfony/polyfill-mbstring/Mbstring.php',
-        'Symfony\\Polyfill\\Php83\\Php83' => __DIR__ . '/..' . '/symfony/polyfill-php83/Php83.php',
         'Twig\\AbstractTwigCallable' => __DIR__ . '/..' . '/twig/twig/src/AbstractTwigCallable.php',
         'Twig\\Attribute\\AsTwigFilter' => __DIR__ . '/..' . '/twig/twig/src/Attribute/AsTwigFilter.php',
         'Twig\\Attribute\\AsTwigFunction' => __DIR__ . '/..' . '/twig/twig/src/Attribute/AsTwigFunction.php',
@@ -1172,9 +1154,9 @@ class ComposerStaticInitc1480097747d1187e78cce468971abe9
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInitc1480097747d1187e78cce468971abe9::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInitc1480097747d1187e78cce468971abe9::$prefixDirsPsr4;
-            $loader->classMap = ComposerStaticInitc1480097747d1187e78cce468971abe9::$classMap;
+            $loader->prefixLengthsPsr4 = ComposerStaticInitd42a5e9f38088e88c2e3061072e4d859::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInitd42a5e9f38088e88c2e3061072e4d859::$prefixDirsPsr4;
+            $loader->classMap = ComposerStaticInitd42a5e9f38088e88c2e3061072e4d859::$classMap;
 
         }, null, ClassLoader::class);
     }
