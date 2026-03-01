@@ -3,7 +3,7 @@
         'name' => 'dsi6/sunat-php',
         'pretty_version' => 'dev-main',
         'version' => 'dev-main',
-        'reference' => 'f49d4ad3ea48f0c86d854e83d7f7ab1138909c18',
+        'reference' => '21d39199edfaad3cb2879e4ec1785c7f8b3b8e52',
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -31,7 +31,7 @@
         'dsi6/sunat-php' => array(
             'pretty_version' => 'dev-main',
             'version' => 'dev-main',
-            'reference' => 'f49d4ad3ea48f0c86d854e83d7f7ab1138909c18',
+            'reference' => '21d39199edfaad3cb2879e4ec1785c7f8b3b8e52',
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
@@ -309,15 +309,6 @@
             'install_path' => __DIR__ . '/../symfony/validator',
             'aliases' => array(),
             'dev_requirement' => false,
-        ),
-        'symfony/var-dumper' => array(
-            'pretty_version' => 'v6.4.32',
-            'version' => '6.4.32.0',
-            'reference' => '131fc9915e0343052af5ed5040401b481ca192aa',
-            'type' => 'library',
-            'install_path' => __DIR__ . '/../symfony/var-dumper',
-            'aliases' => array(),
-            'dev_requirement' => true,
         ),
         'twig/twig' => array(
             'pretty_version' => 'v3.23.0',
