@@ -3,8 +3,8 @@
     "description": "Microservicio SUNAT para facturación electrónica",
     "type": "project",
     "require": {
-        "php": ">=8.1",
-        "greenter/greenter": "^5.1",
+        "php": ">=8.4",
+        "greenter/greenter": "^5.2",
         "guzzlehttp/guzzle": "^7.0"
     },
     "autoload": {
@@ -14,7 +14,10 @@
     },
     "config": {
         "optimize-autoloader": true,
-        "sort-packages": true
+        "sort-packages": true,
+        "platform": {
+            "php": "8.4.0"
+        }
     },
     "minimum-stability": "stable",
     "prefer-stable": true
