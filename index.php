@@ -8,7 +8,8 @@ $method = $_SERVER['REQUEST_METHOD'];
 // Simple router
 switch (true) {
     case $method === 'POST' && preg_match('#/emitir#', $request):
-        require __DIR__ . '/src/endpoints/emitir.php';
+         // ✅ AHORA USA emitir_fake.php EN VEZ DE emitir.php
+        require __DIR__ . '/src/endpoints/emitir_fake.php';
         break;
         
     case $method === 'GET' && preg_match('#/status#', $request):
