@@ -16,8 +16,11 @@ COPY --from=composer:latest /usr/bin/composer /usr/bin/composer
 # Copiar archivos del proyecto
 COPY . .
 
-# Instalar dependencias (sin dev)
-RUN composer install --no-dev --optimize-autoloader
+# ELIMINAR vendor y composer.lock para forzar reinstalación limpia
+RUN rm -rf vendor composer.lock
+
+# Instalar dependencias con todas las opciones necesarias
+RUN composer install --no-dev --optimize-autoloader --ignore-platform-reqs
 
 # Exponer puerto
 EXPOSE 8000
